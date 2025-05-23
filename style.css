@@ -1,0 +1,275 @@
+@font-face {
+    font-family: 'JHC Audemars';
+    font-style: normal;
+  font-weight: normal;
+    src: local('JHC Audemars Medium') url("content/JHCAudemars.otf") format('truetype');
+}
+
+* {
+    margin: 0;
+}
+
+.header_scrolled{
+    background-color: #2a3a2f;
+}
+
+body{
+    font-family: 'ZT Bros Oskon 90s', 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    background-color: #2a3a2f;
+    color: #a18b63;
+    z-index: 2;
+}
+
+h1, h2{
+    font-family:'JHC Audemars';
+    font-weight: lighter;
+    padding: 10px;
+}
+
+h3{
+    font-weight: lighter;
+}
+
+h4{
+    margin: 0;
+    padding-top: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: #a18b63;
+}
+
+a:hover{
+    color: #ad3b3d;
+}
+
+header{
+    font-family: 'JHC Audemars Medium', 'Times New Roman', Times, serif;
+    position: fixed;
+    z-index: 1;
+    padding: 10px;
+    font-size: 15pt;
+}
+
+.header_nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav_input{
+    width: 200px;
+    border-color: #a18b63;
+    color: #a18b63;
+    background-color: transparent;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    font-family: 'ZT Bros Oskon 90s', sans-serif;
+}
+
+.ul_nav{
+    padding-right: 10px;
+}
+
+.tiny_logo{
+    width: 20%;
+    height: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.star, .star_green{
+    width: 5%;
+    margin: auto;
+    display: flex;
+    align-items: end;
+}
+
+
+
+
+
+
+
+#logo{
+    width: 25%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: url("content/vit.jpg");
+    background-repeat: no-repeat;
+    padding: 140px;
+}
+
+.home_cta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cta{
+    border: #a18b63 double 2px;
+    font-family: 'JHC Audemars Medium', 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.dark{
+border: #343223 double 2px;
+color: #343223;
+font-family: 'JHC Audemars Medium', 'Times New Roman', Times, serif;
+width: 200px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+#new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(content/bg_new.jpg);
+    background-size: contain;
+    height: 800px;
+}
+
+#carousel_news{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.carousel{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.content_news{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.news_img{
+    width: 284px;
+    height: 400px;
+    border: #a18b63 solid 2px;
+}
+
+#tiny_about{
+    background-image: url(content/ab_bg.jpg);
+    width: fit-content;
+    color: #343223;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 72px;
+}
+
+#tiny_about_content{
+    display: flex;
+    flex-direction: row;
+    width: 60% ;
+}
+
+#tiny_about_para{
+    padding: 25px;
+}
+
+#tab_services{
+    width: 40%;
+    padding: 25px;
+    border: #343223 solid 2px;
+}
+
+
+#home_partnerships, #home_social{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 72px;
+    background-image: url(content/bg_pr.jpg);
+    background-size: cover;
+}
+
+.home_partners_logo{
+    width: 183px;
+    height: 183px;
+    object-fit: cover;
+}
+
+
+.ul_footer{
+    list-style: none;
+    padding: 0;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+.logo_small{
+    width: 15%;
+    height: auto;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #121212;
+    padding: 50px;
+}
+
+#footer_gauche{
+    display: flex;
+    flex-direction: column;
+}
+
+#footer_newsletter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.h2_newsletter{
+    padding-right: 30px;
+    font-family: 'JHC Audemars Medium', 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.input_newsletter{
+    width: 400px;
+    border-color: #a18b63;
+    background-color: transparent;
+    color: #a18b63;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    font-family: 'ZT Bros Oskon 90s', sans-serif;
+}
+
+.cdt_list{
+    display: flex;
+    flex-direction: row;
+}
